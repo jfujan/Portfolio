@@ -1,0 +1,67 @@
+body {
+    background-color: aquamarine;
+}
+
+.header {
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkolivegreen;
+    color: #ffffff;
+}
+
+.header h1, #contacts h2 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.header nav, #contacts div {
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    display: inline;
+    margin-top: 12.5px;
+}
+
+.header nav ul, #contacts div ul {
+    list-style-type: none;
+}
+
+.header nav ul li, #contacts div ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-align-last: center;
+}
+
+p {
+    float: right;
+    text-align: left;
+    font-size: 25px;
+}
+.section {
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 75%;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+h2 {
+    font-size: 60px;
+    font-style: underline;
+}
+
+.section div {
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    display: inline;
+    margin-top: 12.5px;
+}
+
+#image {
+    border: 20px;
+}
